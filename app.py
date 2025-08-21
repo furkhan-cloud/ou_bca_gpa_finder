@@ -8,7 +8,7 @@ E=5
 
 
 #subject 1
-sub1=input("Enter your grade From : ").capitalize()
+sub1=input("Enter Subject1 grade  : ").capitalize()
 if sub1=='S':
      sub1=10
 elif sub1=='A':
@@ -25,14 +25,14 @@ else :
      print("Invalid Grade")   
 
 #subject 2
-sub2=input("Enter your grade From : ").capitalize()
+sub2=input("Enter Subject2 grade  : ").capitalize()
 if sub2=='S':
      sub2=10
 elif sub2=='A':
      sub2=9     
 elif sub2=='B':
      sub2=8
-elif sub1=='C':
+elif sub2=='C':
      sub2=7
 elif sub2=='D':
      sub2=6
@@ -42,13 +42,13 @@ else :
      print("Invalid Grade")   
 
 #subject 3
-sub3=input("Enter your grade From : ").capitalize()
+sub3=input("Enter Subject3 grade  : ").capitalize()
 if sub3=='S':
      sub3=10
 elif sub3=='A':
      sub3=9     
 elif sub3=='B':
-     sub1=8
+     sub3=8
 elif sub3=='C':
      sub3=7
 elif sub3=='D':
@@ -59,7 +59,7 @@ else :
      print("Invalid Grade")   
 
 #subject 4
-sub4=input("Enter your grade From : ").capitalize()
+sub4=input("Enter Subject4 grade  : ").capitalize()
 if sub4=='S':
      sub4=10
 elif sub4=='A':
@@ -76,7 +76,7 @@ else :
      print("Invalid Grade")   
 
 #subject 5
-sub5=input("Enter your grade From : ").capitalize()
+sub5=input("Enter Subject5 grade  : ").capitalize()
 if sub5=='S':
      sub5=10
 elif sub5=='A':
@@ -93,7 +93,7 @@ else :
      print("Invalid Grade")   
 
 #lab1
-lab1=input("Enter your grade From : ").capitalize()
+lab1=input("Enter Lab1 grade  : ").capitalize()
 if lab1 == "S":
     lab1=10 
 elif lab1 == "A":
@@ -110,7 +110,7 @@ else :
      print("Invalid Grade")   
         
 #lab2
-lab2=input("Enter your grade From : ").capitalize()
+lab2=input("Enter Lab2 grade  : ").capitalize()
 if lab2 == "S":
     lab2=10 
 elif lab2 == "A":
@@ -127,7 +127,7 @@ else :
      print("Invalid Grade")   
         
 #lab3
-lab3=input("Enter your grade From : ").capitalize()
+lab3=input("Enter Lab3 grade  : ").capitalize()
 if lab3 == "S":
     lab3=10 
 elif lab3 == "A":
