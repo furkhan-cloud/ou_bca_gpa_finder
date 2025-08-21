@@ -107,4 +107,5 @@ class grade:
         print(f"Your Gpa = {((sub1*4.0)+(sub2*4.0)+(sub3*4.0)+(sub4*4.0)+(sub5*4.0)+(lab1*2.0)+(lab2*2.0)+(lab3*2.0))/24}")
 
 
-year_1=grade('S','A','S','E','B','S','S','S')
+year_1=grade('S','S','S','E','B','S','S','S')
+year_2=grade('S','S','S','S','E','S','S','S')
