@@ -143,5 +143,6 @@ elif lab3 == "E":
 else :
      print("Invalid Grade")   
         
-gpa=((sub1*4.0)+(sub2*4.0)+(sub3*4.0)+(sub4*4.0)+(sub5*4.0)+(lab1*2.0)+(lab2*2.0)+(lab3*2.0))/24
-print(gpa)
+gpa=((sub1*4.0)+(sub2*4.0)+(sub3*4.0)+(sub4*4.0)+(sub5*4.0))
+lab=((lab1*2.0)+(lab2*2.0)+(lab3*2.0))
+print((gpa+lab)/26)
